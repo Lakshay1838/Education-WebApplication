@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: #ffd0d0;
+    display: flex;
+
+}
+.logo{
+    /* margin: 10px; */
+    display: inline-block;
+    padding: 10px;
+}
+.logo img{
+    width: 7%;
+}
+.navbar ul{
+    display: flex;
+    padding: 20px;
+    list-style-type: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 12px;
+    font-size: 2rem;
+}
+#home{
+    background: url(/images/banner-bg.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 170px;
+}
+#about{
+    width:70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    /* align-content: space-around; */
+}
+#about h1{
+    margin: 20px;
+}
+#about p{
+    margin: 20px;
+}
+.aboutimg{
+    border: 2px solid black;
+    margin: 20px 0px;
+}
+.aboutimg img{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+#services{
+    padding: 40px;
+    background: aliceblue;
+}
+.services-container{
+    /* border: 2px solid black; */
+    /* margin: 40px 100px; */
+    padding: 20px 100px;
+    padding-top: 125px;
+}
+.services-container img{
+    width: 30%;
+}
+.service{
+    /* border: 2px solid red; */
+    width: 32%;
+    display: inline-block;
+}
+
+#contact-section{
+    background: white;
+    margin: 20px;
+}
+.form{
+    /* border: 2px solid red; */
+    width: 40%;
+    margin-left: 150px;
+    display: inline-block;
+}
+.box{
+    /* border: 2px solid black; */
+    padding: 30px;
+    background-color: #0000af;
+}
+input{
+    /* padding: 20px 60px;
+    margin: 10px auto;
+    display: block; */
+}
+#select{
+    width: 423px;
+}
+.input{
+    padding: 10px 25px;
+    margin: 10px auto;
+    display: block;
+    font-size: 30px;
+}
+.img{
+    width: 40%;
+    display: inline-block;
+    margin: 20px 40px;
+
+}
+.img img{
+    box-shadow: 5px 5px blue;
+}
+
+
+#clients{
+    width: 65%;
+    margin: 100px auto;
+    /* background: aliceblue; */
+}
+#clients img{
+    display: block;
+    margin: auto;
+}
+
+
+/* Utility */
+.h-primary{
+    font-size: 2.8rem;
+}
+.h-secondry{
+    font-size: 2.1rem;
+}
+.btn{
+    background-color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    transition: background-color 1s;
+}
+.btn:hover{
+    background-color: pink;
+    color: red;
+}
+.white{
+    color: white;
+}
+.center{
+    text-align: center;
+}
+.gmargin{
+    margin: 20px;
+}
